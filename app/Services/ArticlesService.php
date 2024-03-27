@@ -21,7 +21,7 @@ class ArticlesService {
             $params = [
                 'query' => [
                     'q' => $query,
-                    'apiKey' => '1983d2603b984805aa1575b46dfb6f17'
+                    'apiKey' => config('services.news_api_key')
                 ]
             ];
 
